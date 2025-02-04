@@ -116,34 +116,28 @@ export default cartSlice.reducer;
 ## 🔗 Deployment  
 
 - **Hosting**: [Vercel](https://vercel.com/) (Recommended)  
-- **Database**: Supabase / MongoDB / PostgreSQL  
+- **Database**: Supabase / Prisma with PostgreSQL  
 - **Environment Variables**: Add `.env` variables in the deployment dashboard  
 
 ---
 
-## 👥 Contributing  
+## 🤝 Contributing
 
-1. Fork the repository.  
-2. Create a new feature branch (`git checkout -b feature-branch`).  
-3. Commit your changes (`git commit -m "Added new feature"`).  
-4. Push to your branch (`git push origin feature-branch`).  
-5. Submit a pull request.  
+Contributions are welcome! Here's how you can help:
+Let me know if you'd like adjustments or additional sections! 😊
 
----
-
-## 📜 License  
-
-This project is licensed under the **MIT License**.  
+1. Fork this repository.
+2. Create a branch for your feature or bug fix.
+3. Submit a pull request with a detailed description of your changes.
 
 ---
 
-## 📞 Contact  
-
-- **Author**: Daniella Obiagwuna  
-- **Email**: [your-email@example.com](mailto:your-email@example.com)  
-- **GitHub**: [your-github-profile](https://github.com/yourusername)  
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)  
+### License
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Let me know if you need modifications! 🚀
+Let me know if you'd like to refine it further! 🚀
+- Name: Caleb John
+- Email: [My-email](mailto:johncaleb022@gmail.com)  
+- LinkedIn: [My LinkedIn](https://www.linkedin.com/in/caleb-john-48a1bb29a)
