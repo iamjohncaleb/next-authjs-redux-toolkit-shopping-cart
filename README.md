@@ -1,7 +1,3 @@
-Here’s a **README** file for your **Next.js Shopping Cart** project using **NextAuth.js** and **Redux Toolkit**:  
-
----
-
 # 🛒 Next.js Shopping Cart with NextAuth.js & Redux Toolkit  
 
 This is a fully functional **shopping cart** application built with **Next.js, Redux Toolkit, and NextAuth.js**. The project demonstrates **state management, authentication, and e-commerce functionality** in a modern web stack.  
@@ -33,21 +29,21 @@ This is a fully functional **shopping cart** application built with **Next.js, R
 ## 📦 Installation & Setup  
 
 ### **1. Clone the Repository**  
-```bash
+
 git clone https://github.com/yourusername/nextjs-shopping-cart.git
 cd nextjs-shopping-cart
-```
+
 
 ### **2. Install Dependencies**  
-```bash
+
 npm install
 # or
 yarn install
-```
+
 
 ### **3. Set Up Environment Variables**  
 Create a `.env.local` file in the root directory and add the following:  
-```plaintext
+
 NEXTAUTH_SECRET=your_secret_key
 NEXTAUTH_URL=http://localhost:3000
 GITHUB_CLIENT_ID=your_github_client_id
@@ -55,20 +51,20 @@ GITHUB_CLIENT_SECRET=your_github_client_secret
 GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
 STRIPE_SECRET_KEY=your_stripe_secret_key (optional)
-```
+
 
 ### **4. Start the Development Server**  
-```bash
+
 npm run dev
 # or
 yarn dev
-```
+
 Visit [http://localhost:3000](http://localhost:3000) in your browser.  
 
 ---
 
 ## 📂 Folder Structure  
-```plaintext
+
 ├── app                // Next.js app directory
 │   ├── components     // Reusable UI components
 │   ├── features       // Redux slices (cartSlice.js, authSlice.js)
@@ -80,14 +76,12 @@ Visit [http://localhost:3000](http://localhost:3000) in your browser.
 │   ├── api            // (Optional) API routes for checkout
 ├── store.js           // Redux store setup
 └── README.md          // Project documentation
-```
 
----
 
 ## 🔥 Redux Toolkit Cart Implementation  
 
 **Cart Slice (Redux State Management):**  
-```javascript
+
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
@@ -117,9 +111,7 @@ export const cartSlice = createSlice({
 
 export const { addToCart, removeFromCart } = cartSlice.actions;
 export default cartSlice.reducer;
-```
 
----
 
 ## 🔗 Deployment  
 
